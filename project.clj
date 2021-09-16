@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/data.priority-map "0.0.7"]
-                 [tailrecursion/cljs-priority-map "1.1.0"]]
+                 [tailrecursion/cljs-priority-map "1.2.1"]]
   :plugins [[lein-cljsbuild "1.1.3"]
             [lein-doo "0.1.6"]]
   :aliases {"test-cljs" ["doo" "node" "test" "once"]
